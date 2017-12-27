@@ -1,0 +1,16 @@
+<h1>Cadastrar uma Tradução</h1>
+
+<%= render 'form' %>
+
+<h2>Formulario Raiz</h2>
+<form action="/translations" method="POST">
+  <div>
+    <label for="port">Texto em Português</label>
+    <input type="text" name="portuguese" id="port">
+  </div>
+  <div>
+    <label for="ing">Texto em Inglês</label>
+    <input type="text" name="english" id="ing">
+  </div>
+  <input type="submit" value="Enviar">
+</form>

@@ -1,0 +1,5 @@
+<p>A tradução de <%= @translation.portuguese %> é <%= @translation.english %></p>
+<p>enviada por <em><%= @translation.author %></em></p>
+<%= link_to 'Editar Tradução', edit_translation_path(@translation)  %>
+<br>
+<%= link_to 'Voltar', root_path %>

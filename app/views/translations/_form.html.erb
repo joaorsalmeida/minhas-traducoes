@@ -1,0 +1,13 @@
+<%= form_for(@translation) do |f| %>
+
+  <%= f.label :portuguese, 'Texto em Portugues' %>
+  <%= f.text_field :portuguese %>
+
+  <%= f.label(:english, 'Texto em Ingles') %>
+  <%= f.text_field :english %>
+
+  <%= f.label(:author, 'Autor') %>
+  <%= f.text_field :author %>
+
+  <%= f.submit('Enviar') %>
+<% end %>
